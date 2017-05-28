@@ -1,0 +1,20 @@
+#hover{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url("../images/mystic1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hover h2{
+    text-align: center;
+}
+
+#hover:hover{
+    /*background-color: black;*/
+    border: 2px solid yellow;
+    color: aqua;
+    opacity: 1;
+}
