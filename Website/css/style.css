@@ -3,6 +3,12 @@ body{
     margin: 0;
 }
 
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+}
+
 .container{
     width: 780px;
     margin: 0 auto;
@@ -58,4 +64,52 @@ h2{
     font-size: 13px;
     line-height: 18px;
     text-emphasis: #060506;
+}
+
+.main a:hover{
+    color: #444444;
+}
+
+#home-image img{
+    width: 100%;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    color: #444444;
+    font-family: Norasi;
+    font-size: 11px;
+    text-decoration: solid;
+}
+
+footer a{
+    color: #262626;
+    text-decoration: none;
+}
+
+.seperator{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+
+
+/**************About page styles here*****************/
+
+
+#about-page #home-image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+#about-page .description{
+    clear: both;
 }
