@@ -1,5 +1,5 @@
 body{
-    background: grey;
+    background: rgba(0,0,0,0.06);
     margin: 0;
 }
 
@@ -12,4 +12,50 @@ body{
 .header{
     padding: 45px 0 20px 40px;
     border: 2px solid black;
+}
+
+.menu{
+    background: #0a68ff;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Garuda;
+}
+
+.menu a:hover{
+    color: #84ff31;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 30px;
+}
+
+h1{
+    margin: 0px;
+    color: #ff231f;
+    font-size: 24px;
+    font-family: Garuda;
+    font-weight: normal;
+}
+
+h2{
+    color: darkblue;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #060506;
+    font-family: Kinnari;
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: #060506;
 }
