@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/scripts.js"></script>
 </head>
-<body>
+<body id="contact">
     <div class="container">
 
         <header class="header">
@@ -14,7 +14,7 @@
         </header>
 
         <nav class="menu">
-            <a href="/">Home</a> &nbsp;&nbsp;&nbsp;
+            <a href="1_index.html">Home</a> &nbsp;&nbsp;&nbsp;
             <a href="3_about.html">About Us</a>&nbsp;&nbsp;&nbsp;
             <a href="2_contact.html">Contacts</a>
         </nav>
@@ -25,25 +25,31 @@
 
         <article class="main">
 
-            <h1>Contacts</h1>
+            <h1 class="page-heading">Contacts</h1>
 
             <div id="form">
 
                 <form action="process.php">
 
-                    <p>Name:</p>
-                    <input type="text" name="name">
+                    <p>Name:
+                        <input type="text" name="name" placeholder="Your Name">
+                    </p>
 
-                    <p>Subject:</p>
-                    <input type="text" name="subject">
+                    <p>Subject:
+                        <input type="text" name="subject">
+                    </p>
 
-                    <p>Email:</p>
-                    <input type="text" name="email">
+                    <p>Email:
+                        <input type="text" name="email">
+                    </p>
 
-                    <p>Message:</p>
-                    <textarea name="message" id="" cols="" rows="">
+                    <p>Message:
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </p>
 
-                    </textarea>
+                    <p>
+                        <input id="submit" type="submit" name="submit" value="Send Message">
+                    </p>
 
                 </form>
 
@@ -53,7 +59,7 @@
 
         <footer>
             &copy;2030 Minimalistic Website &nbsp; <span class="seperator">|</span> Design by
-            <a href="www.edwindiaz.com">Edwin Diaz</a>
+            <a href="www.edwindiaz.com">Gaurav Dahiya</a>
         </footer>
 
     </div>
